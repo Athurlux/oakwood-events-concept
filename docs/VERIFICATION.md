@@ -43,8 +43,8 @@ One cold load of the home page in headless Chrome, with no network throttling:
 |---|---|---|---|---|---|
 | Local preview | 390 | 4× slower | ~1.95 s | 0 | 342 KB |
 | Local preview | 1440 | 1× | ~0.76 s | 0 | 433 KB |
-| Live (from Kampala) | 390 | 4× slower | 2.8–3.5 s (5.5 s on a cold edge just after deploy) | 0–0.013 | 347 KB |
-| Live (from Kampala) | 1440 | 1× | 1.5–2.3 s | 0 | 437 KB |
+| Live (from this laptop) | 390 | 4× slower | 2.8–3.5 s (5.5 s on a cold edge just after deploy) | 0–0.013 | 347 KB |
+| Live (from this laptop) | 1440 | 1× | 1.5–2.3 s | 0 | 437 KB |
 
 The LCP element is the live headline. It waits for the main bundle, the home chunk, the
 display font and the short two-stage entrance. JavaScript is 164 KB compressed, of which GSAP
