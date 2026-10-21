@@ -1,0 +1,58 @@
+:root {
+  /* Brief palette: ivory, deep olive, charcoal and restrained champagne. Champagne fails
+     contrast as text on ivory, so it is used only for hairlines,
+     large numerals on olive (4.4:1) and small marks. Contrast: charcoal on ivory 13.5:1,
+     olive on ivory 10.5:1, muted on ivory 5.8:1 (5.3:1 on ivory-deep), ivory on olive
+     10.5:1, on-dark-muted on olive 7.3:1. */
+  --ivory: #f6f2e9;
+  --ivory-deep: #eee8db;
+  --paper: #fbf9f4;
+  --olive: #303b2d;
+  --olive-deep: #252e23;
+  --olive-hover: #3c4a38;
+  --charcoal: #252724;
+  --muted: #5b5f57;
+  --champagne: #b69a6a;
+  --line: #ddd5c5;
+  --line-strong: #b9ae98;
+  --on-dark: #f6f2e9;
+  --on-dark-muted: #d3cbb8;
+
+  --danger: #9c2f1f;
+  --danger-bg: #f8e7e1;
+
+  --serif: 'Cormorant Garamond Variable', 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+  --sans: 'Manrope Variable', 'Manrope', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+
+  --text-xs: 0.8125rem;
+  --text-sm: 0.9375rem;
+  --text-base: 1.0625rem;
+  --text-lg: 1.1875rem;
+  /* Display sizes are for the serif, which reads smaller than the sans at the same size. */
+  --display-sm: clamp(1.75rem, 1.4rem + 1.4vw, 2.4rem);
+  --display-md: clamp(2.2rem, 1.6rem + 2.6vw, 3.6rem);
+  --display-lg: clamp(2.7rem, 1.7rem + 4.4vw, 5.6rem);
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4.5rem;
+  --space-9: clamp(4rem, 2.6rem + 5.5vw, 8rem);
+
+  /* Restrained radii: controls barely rounded, photographs square-edged. */
+  --r-control: 3px;
+  --r-panel: 6px;
+
+  --container: 1240px;
+  --gutter: clamp(16px, 4vw, 48px);
+  --header-h: 80px;
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+@media (max-width: 699px) {
+  :root { --header-h: 64px; }
+}

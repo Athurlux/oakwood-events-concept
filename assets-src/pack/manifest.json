@@ -1,0 +1,58 @@
+[
+  {
+    "file": "images/01-hero-desktop.png",
+    "width": 1672,
+    "height": 941,
+    "bytes": 2588543,
+    "sha256": "974a9f85df8231e36a9b4859a417f247aa5f8867e55202cfa3cf1ede4d67677f"
+  },
+  {
+    "file": "images/02-hero-mobile.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3244752,
+    "sha256": "5f0c265fc9c879f49736c8b379db36e1896e3ed36b7972ac8408ed4e4581b978"
+  },
+  {
+    "file": "images/03-wedding-reception.png",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 2866708,
+    "sha256": "87e7e62ae6117a9a7721f36f8df9ec799fd20b73ffe0b9d6b546d4568a7be85f"
+  },
+  {
+    "file": "images/04-traditional-celebration.png",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 3633304,
+    "sha256": "9daa52ccf225a71742b74e9815a20d9ca629c516c59416acd7e3599743e13958"
+  },
+  {
+    "file": "images/05-corporate-dinner.png",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 2290378,
+    "sha256": "854552d3a9b6661114cc85d39a8d5cbf6d946a0a57115d043614974836a5f5b9"
+  },
+  {
+    "file": "images/06-private-celebration.png",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 2635509,
+    "sha256": "a7dd8687ecae30b2711d2ee6d3b4396e41789e923318ed29abe201b6143af11f"
+  },
+  {
+    "file": "images/07-floral-detail.png",
+    "width": 1122,
+    "height": 1402,
+    "bytes": 2704414,
+    "sha256": "deb4718efa3fcf125d52eec244ff17fdda05f86cd53b8a6a2ec3f9d4d74f3c08"
+  },
+  {
+    "file": "images/08-floral-corner-transparent.png",
+    "width": 1312,
+    "height": 1199,
+    "bytes": 1442962,
+    "sha256": "61a037f16920b7e4bb58b74c62a1d13ff3305d3cd81a7a9932ba71d38ef83a4a"
+  }
+]

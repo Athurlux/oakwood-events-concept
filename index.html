@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en-UG">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Oakwood Events Uganda (independent concept) · Beautifully considered</title>
+    <meta name="description" content="An independent website redesign concept for Oakwood Events Uganda: event planning, styling and garden-style florals. Not the official website; images are illustrative and forms send nothing." />
+    <!-- An independent pitch: kept out of search results so it is never mistaken for the official site. -->
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="theme-color" content="#F6F2E9" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Oakwood Events Uganda, independent website concept" />
+    <meta property="og:title" content="Beautifully considered. Unforgettably yours. (independent concept)" />
+    <meta property="og:description" content="An independent website redesign concept for Oakwood Events Uganda by Arthur Kitandwe. Illustrative AI-generated images; not the official website." />
+    <meta property="og:url" content="%VITE_SITE_URL%/" />
+    <meta property="og:image" content="%VITE_SITE_URL%/social/oakwood-concept-1200x630.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Concept image: a garden reception at golden hour with white floral arches and round tables in ivory linen" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Oakwood Events Uganda (independent concept)" />
+    <meta name="twitter:description" content="An independent website redesign concept. Illustrative images; not the official website." />
+    <meta name="twitter:image" content="%VITE_SITE_URL%/social/oakwood-concept-1200x630.jpg" />
+    <script>
+      // Preload only the hero this device will show, on the home page only, and hold the
+      // headline lines until the entrance timeline starts. The timer reveals them if it
+      // never does. Buttons and links are never hidden.
+      (function () {
+        if ((location.pathname.replace(/\/$/, '') || '/') !== '/') return
+        [['(min-width: 768px)', '/images/hero-desktop-960.webp 960w, /images/hero-desktop-1280.webp 1280w, /images/hero-desktop-1672.webp 1672w'],
+         ['(max-width: 767px)', '/images/hero-mobile-480.webp 480w, /images/hero-mobile-768.webp 768w, /images/hero-mobile-1024.webp 1024w']]
+          .forEach(function (item) {
+            var link = document.createElement('link')
+            link.rel = 'preload'; link.as = 'image'; link.media = item[0]
+            link.setAttribute('imagesrcset', item[1]); link.setAttribute('imagesizes', '100vw'); link.setAttribute('fetchpriority', 'high')
+            document.head.appendChild(link)
+          })
+        if (!matchMedia('(prefers-reduced-motion: reduce)').matches) {
+          document.documentElement.classList.add('hero-pending')
+          setTimeout(function () { document.documentElement.classList.remove('hero-pending') }, 2500)
+        }
+      })()
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript><p style="padding:24px;font-family:Georgia,serif">This Oakwood Events Uganda website concept is interactive and needs JavaScript. It is an independent proposal by Arthur Kitandwe, not the company’s official website.</p></noscript>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,161 @@
+{
+  "hero-desktop": {
+    "source": "01-hero-desktop.png",
+    "crop": null,
+    "width": 1672,
+    "height": 941,
+    "widths": [
+      960,
+      1280,
+      1672
+    ],
+    "focal": "62% 50%"
+  },
+  "hero-mobile": {
+    "source": "02-hero-mobile.png",
+    "crop": null,
+    "width": 1024,
+    "height": 1536,
+    "widths": [
+      480,
+      768,
+      1024
+    ],
+    "focal": "55% 40%"
+  },
+  "wedding": {
+    "source": "03-wedding-reception.png",
+    "crop": null,
+    "width": 1536,
+    "height": 1024,
+    "widths": [
+      640,
+      1024,
+      1536
+    ],
+    "focal": "40% 55%"
+  },
+  "traditional": {
+    "source": "04-traditional-celebration.png",
+    "crop": null,
+    "width": 1536,
+    "height": 1024,
+    "widths": [
+      640,
+      1024,
+      1536
+    ],
+    "focal": "50% 55%"
+  },
+  "corporate": {
+    "source": "05-corporate-dinner.png",
+    "crop": null,
+    "width": 1536,
+    "height": 1024,
+    "widths": [
+      640,
+      1024,
+      1536
+    ],
+    "focal": "35% 60%"
+  },
+  "private": {
+    "source": "06-private-celebration.png",
+    "crop": null,
+    "width": 1536,
+    "height": 1024,
+    "widths": [
+      640,
+      1024,
+      1536
+    ],
+    "focal": "45% 55%"
+  },
+  "wedding-detail": {
+    "source": "03-wedding-reception.png",
+    "crop": [
+      300,
+      230,
+      900,
+      980
+    ],
+    "width": 600,
+    "height": 750,
+    "widths": [
+      480,
+      600
+    ],
+    "focal": "50% 50%"
+  },
+  "traditional-detail": {
+    "source": "04-traditional-celebration.png",
+    "crop": [
+      60,
+      300,
+      700,
+      1024
+    ],
+    "width": 640,
+    "height": 724,
+    "widths": [
+      480,
+      640
+    ],
+    "focal": "50% 50%"
+  },
+  "corporate-detail": {
+    "source": "05-corporate-dinner.png",
+    "crop": [
+      0,
+      432,
+      792,
+      1024
+    ],
+    "width": 792,
+    "height": 592,
+    "widths": [
+      480,
+      792
+    ],
+    "focal": "50% 50%"
+  },
+  "private-detail": {
+    "source": "06-private-celebration.png",
+    "crop": [
+      0,
+      0,
+      576,
+      1024
+    ],
+    "width": 576,
+    "height": 1024,
+    "widths": [
+      480,
+      576
+    ],
+    "focal": "50% 50%"
+  },
+  "floral": {
+    "source": "07-floral-detail.png",
+    "crop": null,
+    "width": 1122,
+    "height": 1402,
+    "widths": [
+      480,
+      800,
+      1122
+    ],
+    "focal": "55% 45%"
+  },
+  "floral-corner": {
+    "source": "08-floral-corner-transparent.png",
+    "crop": null,
+    "width": 1312,
+    "height": 1199,
+    "widths": [
+      360,
+      720
+    ],
+    "focal": "50% 50%"
+  }
+}
