@@ -28,7 +28,8 @@ export function useSiteMotion(root: RefObject<HTMLElement | null>) {
       if (scope.querySelector('[data-hero="line"]')) {
         const tl = gsap.timeline({ defaults: { ease: EASE.expo } })
         tl.from('[data-hero="photo"]', { scale: 1.03, duration: DUR.hero, ease: EASE.settle }, 0)
-          .from('[data-hero="line"]', { yPercent: 100, duration: 1.1, stagger: 0.32 }, 0.15)
+          // Kept short: the headline is the page's LCP element, so a long entrance delays it.
+          .from('[data-hero="line"]', { yPercent: 100, duration: 0.85, stagger: 0.22 }, 0.05)
           .from('[data-hero="lede"]', { y: 10, opacity: 0, duration: DUR.base, ease: EASE.out }, '-=0.55')
           // The actions only move; they are never transparent, so they are usable at once.
           .from('[data-hero="actions"]', { y: 10, duration: DUR.base, ease: EASE.out }, '<')
